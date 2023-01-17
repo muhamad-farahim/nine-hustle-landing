@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.benefits {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5vw;
+
+    &__title {
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        gap: 0.25em;
+        &__word-group {
+            display: inline-flex;
+            flex-direction: column;
+            font-size: 0.33em;
+            &__regular {
+                font-weight: 600;
+            }
+        }
+
+        &__orange {
+            color: #e96945;
+        }
+    }
+
+    &__card-container {
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        padding: 5vw 9.3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits {
+        &__title {
+            font-size: 6vw;
+        }
+
+        &__card-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
