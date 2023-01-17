@@ -1,0 +1,19 @@
+.benefits-footer-separator {
+    position: relative;
+    background-color: #fcff6d;
+    overflow: hidden;
+
+    &__orange {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: scaleY(-1) translateY(-8vw);
+    }
+
+    &__white {
+        height: 100%;
+        width: 100%;
+    }
+}
