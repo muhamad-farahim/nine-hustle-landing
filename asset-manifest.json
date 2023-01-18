@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nine-hustle-landing/static/css/main.5505d5a7.css",
+    "main.js": "/nine-hustle-landing/static/js/main.79b5ddea.js",
+    "index.html": "/nine-hustle-landing/index.html",
+    "main.5505d5a7.css.map": "/nine-hustle-landing/static/css/main.5505d5a7.css.map",
+    "main.79b5ddea.js.map": "/nine-hustle-landing/static/js/main.79b5ddea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5505d5a7.css",
+    "static/js/main.79b5ddea.js"
+  ]
+}
